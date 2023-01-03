@@ -1,0 +1,46 @@
+.list-tasks {
+    background-color: rgba(0, 0, 0, 0.767);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.tasks {
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 1px solid #fff;
+    width: 17rem;
+    height: 90vh;
+    margin: 20px auto;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.tasks i {
+    font-size: 20px;
+}
+
+.tasks-x {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+@media(min-width: 768px) {
+    .list-tasks {
+        position: relative;
+    }
+
+    .tasks-x {
+        display: none;
+    }
+
+    .tasks {
+        width: 24rem;
+        height: 70vh;
+    }
+
+    .task-list {
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+.container-login {
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.843), rgba(0, 0, 0, 0.843)), url("https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.login-form {
+    width: 17rem;
+    border: 1px solid #fff;
+    padding: 2rem 2rem;
+}
+
+.form-account h3 {
+    margin-bottom: .4rem;
+    color: #0c9e61;
+}
+
+.form-input {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.input-form {
+    margin-bottom: .50rem;
+}
+
+@media(min-width: 768px) {
+    .container-login {
+        background-size: 100% 100%;
+    }
+
+    .login-form {
+        width: 20rem;
+    }
+}

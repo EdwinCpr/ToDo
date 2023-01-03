@@ -1,0 +1,130 @@
+/* Universales */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: inherit;
+}
+
+.container {
+    color: #fff;
+}
+
+input {
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem
+}
+
+button {
+    border: 0;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.login-title, .register-title {
+    text-align: center;
+    color: #0c9e61;
+    margin-bottom: 1.5rem;
+}
+
+.input-form input {
+    width: 13rem;
+    height: 2rem;
+    padding: 0rem .2rem;
+    margin-top: .4rem;
+    border-radius: .2rem;
+    border: 1px solid #fff;
+}
+
+.password-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.password-input {
+    width: 13rem;
+    border: 1px solid #fff;
+    border-radius: .2rem;
+    margin-top: .4rem;
+}
+
+.password-input input {
+    height: 2rem;
+    width: 86%;
+    padding: 0rem .2rem;
+}
+
+.logo-eye {
+    width: 14%;
+    cursor: pointer;
+}
+
+.space-input {
+    margin-top: .70rem;
+}
+
+.button button {
+    background-color: #0c9e61;
+    color: #fff;
+    padding: .80rem 1.5rem;
+    margin-top: .90rem;
+    border-radius: .20rem;
+    transition: 300ms;
+    box-shadow: .00rem .03rem .10rem .03rem;
+    text-transform: uppercase;
+}
+
+.button button:hover {
+    background-color: #fff;
+    color: #0c9e61;
+}
+
+.option-register-login {
+    margin-top: .7rem;
+}
+
+.redirect {
+    color: #0c9e61;
+}
+
+.hidden {
+    display: none;
+}
+@media(min-width: 768px) {
+    .input-form input {
+        width: 15rem;
+    }
+
+    .password-input {
+        width: 15rem;
+    }
+
+    .button button {
+        background-color: #0c9e61;
+        color: #fff;
+        padding: 1rem 2rem;
+    }
+    
+    .hidden {
+        display: block;
+    }
+}

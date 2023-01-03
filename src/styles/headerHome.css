@@ -1,0 +1,22 @@
+.headerhome {
+    height: 7vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.headerhome-username {
+    color: #0c9e61
+}
+
+.exit i {
+    color: #fff;
+    font-size: 25px
+}
+
+.exit i:hover {
+    color: #0c9e61
+}

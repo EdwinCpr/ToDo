@@ -1,0 +1,22 @@
+.container-home {
+    height: 87vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.843), rgba(0, 0, 0, 0.843)), url("https://cdn.pixabay.com/photo/2019/02/28/17/31/tasks-4026398_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width: 768px) {
+    .container-home {
+        background-size: 100% 100%;
+    }
+
+    .home {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+}

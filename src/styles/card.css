@@ -1,0 +1,36 @@
+.card { 
+    background-color: #fff;
+    color: #000;
+    padding: .6rem 1rem;
+    border-radius: 7px;
+    border: 2px solid #0c9e61;
+    text-align: center;
+    margin-bottom: .50rem;
+    word-break: break-all
+}
+
+h3 {
+    padding: .3rem;
+}
+
+button {
+    background-color: transparent;
+}
+
+.icons-flex {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.edit i {
+    font-size: 1.5rem;
+    color: #0c9e61;
+}
+
+.trash i {
+    font-size: 1.5rem;
+    color: #ff0000a2;
+}

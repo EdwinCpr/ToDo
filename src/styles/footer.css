@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    font-weight: bold;
+    border-top: 1px solid #0c9e61;
+    background-color: #000000f1;
+}
+
+.heart {
+    color: #0c9e61;
+}

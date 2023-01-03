@@ -1,0 +1,29 @@
+.bad {
+    background-color: #ff0000ce;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 11.6px;
+    font-weight: bold;
+}
+
+.mt {
+    margin-top: 8px;
+}
+
+.nice {
+    background-color: #0c9e61;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 11.6px;
+    font-weight: bold;
+}
+
+@media(min-width: 768px) {
+    .bad {
+        font-size: 14px;
+    }
+
+    .nice {
+        font-size: 14px;
+    }
+}

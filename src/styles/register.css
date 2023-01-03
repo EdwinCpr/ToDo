@@ -1,0 +1,26 @@
+.container-register {
+    height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#000000d7, #000000d7), url("https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_960_720.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.register-form {
+    border: 1px solid #fff;
+    width: 17rem;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .container-register {
+        background-size: 100% 100%;
+    }
+
+    .register-form {
+        width: 20rem;
+    }
+}
