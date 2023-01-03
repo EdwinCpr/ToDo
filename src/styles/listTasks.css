@@ -26,6 +26,10 @@
     margin-bottom: 1rem;
 }
 
+.tasks-message {
+    text-align: center;
+}
+
 @media(min-width: 768px) {
     .list-tasks {
         position: relative;

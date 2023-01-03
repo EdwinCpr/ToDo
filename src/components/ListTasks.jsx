@@ -21,11 +21,11 @@ const ListTasks = () => {
                         <i className="fa-solid fa-x" onClick={() => dispatch(toggleList())}></i>
                     </div>
                     <div className="tasks-list">
-                        {
+                        {Tasks.length === 0 ? <h1 className="tasks-message">No tienes tarea, empieza a crearlas!</h1> : (
                             Tasks.map((task) => (
                                 <Card ID={task.id} Title={task.title} Description={task.description} Completed={task.completed} Task={task} key={task.id} />
                             ))
-                        }
+                        )}
                     </div>
                 </div>
             </div>
