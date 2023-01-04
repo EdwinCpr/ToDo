@@ -17,6 +17,17 @@
     overflow-y: auto;
 }
 
+.tasks::-webkit-scrollbar {
+    background-color: #fff;
+    width: .5rem;
+}
+
+.tasks::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-left: 1px solid #fff;
+
+}
+
 .tasks i {
     font-size: 20px;
 }
